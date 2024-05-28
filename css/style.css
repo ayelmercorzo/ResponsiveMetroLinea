@@ -5,7 +5,7 @@
 }
 body{
     box-sizing: border-box;
-    background:  linear-gradient(#E6E6E6,#808080);
+    background:  linear-gradient(#5cff3b,#83b337,#eeffb0);
     height: 100vh;
     font-family: "Open Sans", sans-serif;
 }
@@ -79,6 +79,10 @@ body{
     display: inline-block;
     text-align: center;
 }
+.rectangle-2:hover {
+    box-shadow: 0 0 10px rgb(0,0,0,1 );
+    cursor: pointer;
+}
 
 .rectangle-2 img{
     width: 10vw;
@@ -96,15 +100,29 @@ body{
         margin-bottom: 2vh;
         color: #808080;
     }
+    .num1:hover{
+        color: #c8ff00;
+        cursor: pointer;
+        font-size: 2.1vh;
+    }
     .num2 {
         margin-bottom: 2vh;
+        color: #808080;
+    }
+    .num2:hover {
         color: #c8ff00;
+        cursor: pointer;
+        font-size: 2.1vh;
     }
     .num3 {
         color: #808080;
     }
+    .num3:hover {
+        color: #c8ff00;
+        cursor: pointer;
+        font-size: 2.1vh;
+    }
 }
-
 
 .icono-inferior >img{
    width:1.548vw;
