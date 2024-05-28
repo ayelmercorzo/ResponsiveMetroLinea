@@ -5,7 +5,7 @@
 }
 body{
     box-sizing: border-box;
-    background:  linear-gradient(#5cff3b,#83b337,#eeffb0);
+    background:  linear-gradient(white,rgb(206, 206, 206),gray);
     height: 100vh;
     font-family: "Open Sans", sans-serif;
 }
