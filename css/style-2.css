@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background:  linear-gradient(#E6E6E6,#808080);
+    height: 100vh;
+}
+
+.contenedor{
+    margin:  4vh 3.643vw;
+    display: flex;
+    justify-content:center;
+    margin-top: 5vh;
+}
+
+.contenido{
+    background-color: white;
+    border: 0.2vw solid black;
+    padding: 4vh 3.643vw;
+    width: 50%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 10.929vw; 
+}
+.icon{
+    width: 1.548vw;
+    margin-left: 1.5vw;
+}
+.enlace{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 1.821vw;
+    font-size: 1.2vw;
+    color: black;
+}
+.enlace:hover{
+    border-bottom: 0.182vw solid black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.img-main{
+    width: 36.43vw;
+}
+
+.text{
+    text-align: center;
+} 
+.text-alternativo p{
+    font-weight: bold;
+}
+.contenedor-inferior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor-inferior h2{
+    font-size: 1.3vw;
+}
+.text{
+    font-size: 1.3vw; 
+}
+
+.costo{
+    margin-top: -0.5vh;
+    border: 1px solid #707070;
+    display: inline-block;
+    width: 13.661vw;
+    border-radius: 5px;
+    padding: 0.2vh 0.182vw;
+
+}
+.rectangle-2{
+    background-color: #D5FF43;
+    border-radius: 0.911vw;
+    padding: 0.5vh 0.455vw;
+    display: inline-block;
+    text-align: center;
+}
+.rectangle-2 a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   font-size: 1.2vw;
+}
+.rectangle-2 img{
+    width: 10vw;
+}
+
+.rectangle-1{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 0.911vw;
+    width: 4.554vw;
+    
+}
+
+.parrafo-rectangle-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1vw;
+}
+.grupo-numeros{
+    margin-top: 4vh;
+    text-align: center;
+}
+.grupo-numeros p:first-child{
+    color: rgb(100, 95, 95);
+}
+.grupo-numeros p:last-child{
+    color: rgb(100, 95, 95);
+}
+
+.icono-inferior >img{
+   width:1.548vw;
+}
